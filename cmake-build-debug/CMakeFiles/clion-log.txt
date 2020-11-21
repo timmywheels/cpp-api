@@ -1,0 +1,27 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/timothy.wheeler/code/cpp-api
+-- Found Boost 1.70.0 at /usr/local/lib/cmake/Boost-1.70.0
+--   Requested configuration: QUIET REQUIRED
+-- Found boost_headers 1.70.0 at /usr/local/lib/cmake/boost_headers-1.70.0
+-- Found Boost: /usr/local/lib/cmake/Boost-1.70.0/BoostConfig.cmake (found version "1.70.0")  
+-- Found Boost 1.70.0 at /usr/local/lib/cmake/Boost-1.70.0
+--   Requested configuration: QUIET REQUIRED COMPONENTS components;you;would;like;to;link;with
+CMake Error at /usr/local/lib/cmake/Boost-1.70.0/BoostConfig.cmake:95 (find_package):
+  Could not find a package configuration file provided by "boost_components"
+  (requested version 1.70.0) with any of the following names:
+
+    boost_componentsConfig.cmake
+    boost_components-config.cmake
+
+  Add the installation prefix of "boost_components" to CMAKE_PREFIX_PATH or
+  set "boost_components_DIR" to a directory containing one of the above
+  files.  If "boost_components" provides a separate development package or
+  SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/Boost-1.70.0/BoostConfig.cmake:124 (boost_find_dependency)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindBoost.cmake:444 (find_package)
+  CMakeLists.txt:12 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/timothy.wheeler/code/cpp-api/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/timothy.wheeler/code/cpp-api/cmake-build-debug/CMakeFiles/CMakeError.log".

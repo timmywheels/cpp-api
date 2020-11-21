@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/timothy.wheeler/code/cpp-api/src/main.cpp
+iostream
+-
+pistache/pistache.h
+/Users/timothy.wheeler/code/cpp-api/src/pistache/pistache.h
+
